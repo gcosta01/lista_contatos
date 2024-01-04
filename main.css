@@ -1,0 +1,79 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+header img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo do formulário */
+#form-contato {
+    margin: 20px;
+}
+
+#form-contato label,
+#form-contato input,
+#form-contato button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#form-contato label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+#form-contato input {
+    padding: 8px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form-contato button {
+    padding: 8px 16px;
+    background-color: #0a75e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo da tabela de contatos */
+#tabela-contatos {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela-contatos th,
+#tabela-contatos td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabela-contatos th {
+    background-color: #a2c3e7;
+    color: white;
+}
